@@ -1,1 +1,1 @@
-[offcial course note]{https://cs231n.github.io/classification/}
+[offcial course note](https://cs231n.github.io/classification/)
