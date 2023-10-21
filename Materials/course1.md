@@ -13,3 +13,6 @@ $f\left(x_i, W, b\right)=W x_i+b$
 
 Interpretations are in the official note.
 (Linear Constraints / Average Templates Matching)
+##### Multiclass Support Vector Machine (SVM) loss
+$L_i=\sum_{j \neq y_i} \max \left(0, s_j-s_{y_i}+\Delta\right)$
+( $ReLU$ ??? )
