@@ -39,3 +39,7 @@ the probabilities computed by the Softmax classifier are better thought of as co
 </font>the absolute numbers (or their differences) technically are not <font color=Red> .
 
 $L_i=-\log \left(\frac{e^{f_{y_i}}}{\sum_j e^{f_j}}\right) \quad$ or equivalently $\quad L_i=-f_{y_i}+\log \sum_j e^{f_j}$
+
+https://deepinout.com/numpy/numpy-questions/32_numpy_cs231n_how_to_calculate_gradient_for_softmax_loss_function.html
+
+![dataflow](https://github.com/Jackcuii/CNN-but-not-CNN/assets/113412207/79e83ea4-a44b-4ac9-9ad5-7efcba664fba)
