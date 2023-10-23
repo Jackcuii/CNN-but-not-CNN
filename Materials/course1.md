@@ -31,7 +31,11 @@ Full expression of the loss function:
 ![图片](https://github.com/Jackcuii/CNN-but-not-CNN/assets/113412207/74b4e3bd-7312-401c-91dc-605d2d1987f0)
 Since the L2 penalty prefers smaller and more diffuse weight vectors, the final classifier is encouraged to take into account all input dimensions to small amounts rather than a few input dimensions and very strongly.
 ##### Softmax Loss
+![svmvssoftmax](https://github.com/Jackcuii/CNN-but-not-CNN/assets/113412207/4790eae7-4b63-45a7-8877-242e2f9102b8)
 ......
 Softmax classifier provides “probabilities” for each class. 
 We put the word “probabilities” in quotes, however, is that how peaky or diffuse these probabilities are depends directly on the regularization strength λ - which you are in charge of as input to the system. 
-the probabilities computed by the Softmax classifier are better thought of as confidences where, similar to the SVM, the ordering of the scores is interpretable, but the absolute numbers (or their differences) technically are not.
+the probabilities computed by the Softmax classifier are better thought of as confidences where, similar to the SVM, the ordering of the scores is interpretable, but 
+</font>the absolute numbers (or their differences) technically are not <font color=Red> .
+
+$L_i=-\log \left(\frac{e^{f_{y_i}}}{\sum_j e^{f_j}}\right) \quad$ or equivalently $\quad L_i=-f_{y_i}+\log \sum_j e^{f_j}$
