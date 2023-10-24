@@ -34,12 +34,23 @@ Since the L2 penalty prefers smaller and more diffuse weight vectors, the final 
 ![svmvssoftmax](https://github.com/Jackcuii/CNN-but-not-CNN/assets/113412207/4790eae7-4b63-45a7-8877-242e2f9102b8)
 ......
 Softmax classifier provides “probabilities” for each class. 
+
 We put the word “probabilities” in quotes, however, is that how peaky or diffuse these probabilities are depends directly on the regularization strength λ - which you are in charge of as input to the system. 
-the probabilities computed by the Softmax classifier are better thought of as confidences where, similar to the SVM, the ordering of the scores is interpretable, but 
-</font>the absolute numbers (or their differences) technically are not <font color=Red> .
+
+the probabilities computed by the Softmax classifier are better thought of as confidences where, similar to the SVM, the ordering of the scores is interpretable, but </font>the absolute numbers (or their differences) technically are not <font color=Red> .
 
 $L_i=-\log \left(\frac{e^{f_{y_i}}}{\sum_j e^{f_j}}\right) \quad$ or equivalently $\quad L_i=-f_{y_i}+\log \sum_j e^{f_j}$
 
 https://deepinout.com/numpy/numpy-questions/32_numpy_cs231n_how_to_calculate_gradient_for_softmax_loss_function.html
 
 ![dataflow](https://github.com/Jackcuii/CNN-but-not-CNN/assets/113412207/79e83ea4-a44b-4ac9-9ad5-7efcba664fba)
+
+##### Gradient descent
+Nothing much to say.
+
+##### Backward prop
+First forward down to calculate the intermediate value.
+Then backward to calculate the gradient.
+calc it locally not globally!
+
+
