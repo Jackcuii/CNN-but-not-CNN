@@ -53,7 +53,9 @@ First forward down to calculate the intermediate value.
 Then backward to calculate the gradient.
 calc it locally not globally!
 
-The exact timing of the output spikes in many systems is known to be important, suggesting that the rate code approximation may not hold.
+#### NN
+> The exact timing of the output spikes in many systems is known to be important, suggesting that the rate code approximation may not hold.
+
 Maybe it could be a creative point.
 
 
