@@ -58,5 +58,5 @@ calc it locally not globally!
 
 Maybe it could be a creative point.
 
-
+https://www.sciencedirect.com/science/article/abs/pii/S0959438814000130
 
