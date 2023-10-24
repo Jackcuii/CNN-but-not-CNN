@@ -54,3 +54,4 @@ Then backward to calculate the gradient.
 calc it locally not globally!
 
 
+
