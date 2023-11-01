@@ -5,6 +5,7 @@
 #include <stdlib.h>
 class Neuron {
     private:
+    
         static int input_width;
         int id;
         float (*activate_function) (float in);    // function pointer of the activation function
@@ -16,7 +17,6 @@ class Neuron {
         float output;
         //delta
         vector<float> local_gradients;
-        
 
     public:
         Neuron(int i_w, float (*a_f) (float in),int id);
